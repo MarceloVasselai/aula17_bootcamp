@@ -1,0 +1,17 @@
+[project]
+name = "aula17-bootcamp"
+version = "0.1.0"
+description = "SQLAlchemy - Conjunto de ferramentas para manipular SQL"
+authors = [
+    {name = "Marcelo Vasselai",email = "mvasselai@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "sqlalchemy (>=2.0.40,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
