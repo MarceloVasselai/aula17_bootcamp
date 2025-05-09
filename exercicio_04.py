@@ -22,7 +22,7 @@ Base.metadata.create_all(engine)
 print("Tabela Criada com SQLite estabelecida.")
 
 from sqlalchemy.orm import sessionmaker
-
+w
 from sqlalchemy.orm import sessionmaker
 # assumindo que engine já foi criado
 
